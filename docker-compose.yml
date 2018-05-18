@@ -1,0 +1,12 @@
+version: '2'
+services:
+    frontend:
+        build: .
+        volumes:
+            - .:/web-view
+            - /web-view/node_modules
+        ports:
+            - "3000:3000"
+        working_dir: /web-view
+        tty: true
+        entrypoint: yarn start
