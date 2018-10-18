@@ -1,4 +1,4 @@
-# React-Redux-Boilerplate
+# react-redux-boilerplate
 React + Redux + Docker + Webpack-Dev-Server + Eslint(Airbnb)
 
 ### Philosophy
